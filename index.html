@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css"/>
+    <title>Code Quiz</title>
+</head>
+<body>
+   <div class="container">
+    <button id="highscores-button">View Highscores</button>
+    <p id="timer">Time</p>
+    <div class="inner-container">
+        <header>
+            <h1>Coding Quiz Challenge</h1>
+            <p>Answer the following code questions-related questions within the time limit. 
+                It's important to know with every wrong answer, you will 
+                not only lose ponits but 10 seconds off the timer as well. Goodluck!
+            </p>
+        </header>
+    </div>
+      <button onclick="timer()" id="start-quiz-button">Start Quiz</button>
+   </div>
+
+   <div id="questions"></div>
+   <div id="previous"></div>
+   <div id="next"></div>
+   <div id="result"></div>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
